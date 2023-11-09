@@ -7,7 +7,7 @@ public class Calculadora {
 	static Scanner leia = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		
+			
 		double numero1, numero2;
 
 		System.out.println("Digite o primeiro numero: ");

@@ -1,6 +1,5 @@
 package aula_04;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Pesquisa {

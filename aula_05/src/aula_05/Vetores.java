@@ -42,13 +42,16 @@ public class Vetores {
 		
 		System.out.println("\n");
 		
+		// Busca Binária
 		System.out.println("A posição do elemento " + nome + " é: " + Arrays.binarySearch(pessoas, nome));
 				
+		// Localizar o indice de um elemento
 		for(int indice = 0; indice < pessoas.length; indice ++) {
 			if (pessoas[indice].equalsIgnoreCase("Aline")) 
 				System.out.println("\nA Aline está na posição : " + indice);
 		}
 		
+		// Exibir os nomes com as letras maiúsculas utilizando o for...each
 		for(String pessoa : pessoas) {
 			System.out.println(pessoa.toUpperCase());
 		}
